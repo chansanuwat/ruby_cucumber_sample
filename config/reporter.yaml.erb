@@ -1,0 +1,8 @@
+project:
+    name: '<%= ENV['project_name'] || 'CONNECTeD UI - Cuke' %>'
+    description: '<%= ENV['project_desc'] || 'Ruby/Cucumber automation of the CONNECTed UI.' %>'
+test:
+    name: '<%= ENV['test_name'] || "Test on #{Time.now.strftime('%m/%d/%Y %H:%M:%S')}" %>'
+    description: '<%= ENV['test_desc'] || "No Detail available" %>'
+    environment: '<%= Environment[:host] %>'
+    notes: '<%= ENV['notes'] || "" %>'

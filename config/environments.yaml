@@ -1,0 +1,9 @@
+qe:
+  :host: REMOVED
+  :secure: true
+dev:
+  :host: REMOVED
+  :secure: true
+local:
+  :host: 'localhost:59328'
+  :secure: false

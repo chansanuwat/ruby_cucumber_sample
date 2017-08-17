@@ -1,0 +1,1 @@
+# Sample of Ruby/Cucumber automation for a web based communication app
